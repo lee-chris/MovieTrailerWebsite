@@ -3,7 +3,9 @@ import media
 
 
 def show_movies():
+    """Show the movies website"""
     
+    # Build movies array
     movies = []
     
     movies.append(media.Movie(
@@ -21,4 +23,5 @@ def show_movies():
         "https://images-na.ssl-images-amazon.com/images/M/MV5BMjAxNjMwNDQwNF5BMl5BanBnXkFtZTYwNDIzNTc2._V1_.jpg",
         "https://www.youtube.com/watch?v=0HtZ2M4e_AM"))
     
+    # Open website in web browser
     fresh_tomatoes.open_movies_page(movies)
