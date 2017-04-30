@@ -25,3 +25,8 @@ def show_movies():
     
     # Open website in web browser
     fresh_tomatoes.open_movies_page(movies)
+
+
+# Use show_movies as the main function
+if __name__ == "__main__":
+    show_movies()
