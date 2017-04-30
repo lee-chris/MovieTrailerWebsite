@@ -15,7 +15,11 @@ This code builds a simple website for viewing movie trailers. The instructions b
 3. Run the following command
 
     On Windows
-    `python .\entertainment_center.py`
+    ```
+    python .\entertainment_center.py
+    ```
     
     On UNIX
-    `python ./entertainment_center.py`
+    ```
+    python ./entertainment_center.py
+    ```
